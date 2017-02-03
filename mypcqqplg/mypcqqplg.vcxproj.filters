@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{7cedd20d-8fc5-4fbf-80a8-cf5092639adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Persons">
+      <UniqueIdentifier>{2157faf7-a646-4d8f-8450-4b0a484b7a75}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="constc.h">
@@ -24,12 +30,36 @@
     <ClInclude Include="mypcqq_dlport_raw.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MessageCore.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgPerson.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPerson.h">
+      <Filter>Classes\Persons</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="ports.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageCore.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgPerson.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPerson.cpp">
+      <Filter>Classes\Persons</Filter>
+    </ClCompile>
+    <ClCompile Include="mypcqq_dlport_raw.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

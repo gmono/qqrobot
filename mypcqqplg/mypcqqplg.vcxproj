@@ -149,12 +149,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="constc.h" />
+    <ClInclude Include="MessageCore.h" />
+    <ClInclude Include="MsgPerson.h" />
     <ClInclude Include="mypcqq_dllport.h" />
     <ClInclude Include="mypcqq_dlport_raw.h" />
+    <ClInclude Include="TestPerson.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="data.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="MessageCore.cpp" />
+    <ClCompile Include="MsgPerson.cpp" />
+    <ClCompile Include="mypcqq_dlport_raw.cpp" />
     <ClCompile Include="ports.cpp" />
+    <ClCompile Include="TestPerson.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="说明.txt" />
