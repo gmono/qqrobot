@@ -1,0 +1,9 @@
+﻿  ports.cpp
+  dllmain.cpp
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\document\projects\mypcqqplg_sdk\Debug\mypcqqplg.dll) does not match the Linker's OutputFile property value (D:\elanges\mypcqq\Plugin\testplg.xx.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(mypcqqplg) does not match the Linker's OutputFile property value (testplg.xx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+    正在创建库 D:\document\projects\mypcqqplg_sdk\Debug\mypcqqplg.lib 和对象 D:\document\projects\mypcqqplg_sdk\Debug\mypcqqplg.exp
+mypcqqplg.exp : warning LNK4070: .EXP 中的 /OUT:mypcqqplg.dll 指令与输出文件名“D:\elanges\mypcqq\Plugin\testplg.xx.dll”不同；忽略指令
+  mypcqqplg.vcxproj -> D:\document\projects\mypcqqplg_sdk\Debug\mypcqqplg.dll
+  mypcqqplg.vcxproj -> D:\document\projects\mypcqqplg_sdk\Debug\mypcqqplg.pdb (Full PDB)
